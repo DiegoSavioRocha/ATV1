@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    width: 1024px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    box-shadow: 2px 2px 3px 2px rgb(113, 113, 113 );
+}
+
+/*--- INICIO DO HEADER ---*/
+
+header {
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+nav {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: large;
+    box-shadow: 2px 2px 3px 2px rgb(113, 113, 113 );
+}
+
+#nav0 {
+    width: 400px;
+    height: 50px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav1 {
+    width: 430px;
+    height: 100px;
+    float: left;
+    margin-top: 5px;
+}
+
+#nav2 {
+    width: 450px;
+    height: 100px;
+    float: right;
+    margin-top: 5px;
+    background-image: url(img/porco.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#section1 {
+    width: 160px;
+    height: 170px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-image: url(gif/doomguy.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 3px 2px rgb(113, 113, 113 );
+}
+
+#section2 {
+    width: 904px;
+    height: 110px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+/*--- FINAL DO HEADER ---*/
+
+/*---------------------------------------*/
+
+/*--- INICIO DO MAIN ---*/
+
+main {
+    width: 904px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+#aside1 {
+    float: left;
+    width: 235px;
+    height: 490px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px 2px rgb(113, 113, 113 );
+}
+
+article {
+    float: left;
+    width: 400px;
+    height: 490px;
+    margin-left: 10px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px 2px rgb(113, 113, 113 );
+}
+
+#aside2 {
+    float: right;
+    width: 245px;
+    height: 490px;
+    background-image: url(img/bebida.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position-y: bottom;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px 2px rgb(113, 113, 113 );
+}
+
+#section3 {
+    width: 213px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(img/carnep.jfif);
+    background-repeat: no-repeat;
+    background-size: 80% ;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+#section4 {
+    float: left;
+    width: 190px;
+    height: 125px;
+    background-image: url(img/carnep1.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#section5 {
+    float: right;
+    width: 190px;
+    height: 125px;
+    background-image: url(img/carnep2.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#section6 {
+    float: left;
+    width: 388px;
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#section7 {
+    width: 213px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(img/carneg.jfif);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+#section8 {
+    float: right;
+    width: 190px;
+    height: 125px;
+    background-image: url(img/carneg1.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#section9 {
+    float: left;
+    width: 190px;
+    height: 125px;
+    background-image: url(img/carneg2.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+/*--- FINAL DA MAIN ---*/
+
+/*---------------------------------------*/
+
+/*--- INICIO DO FOOTER ---*/
+
+footer {
+    width: 900px;
+    height: 150px;
+    background-image: url(img/final.jpg);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px rgb(113, 113, 113 );
+}
